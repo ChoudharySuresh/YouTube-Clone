@@ -11,7 +11,7 @@ const VideoCard = (video) => {
   return (
     <>
       <div className='w-[21rem]'>
-        <img src={url} alt="thubnail" className="w-[25rem] h-[11rem] rounded-xl hover:rounded-none hover:cursor-pointer hover:transition duration-100 ease-in-out" />
+        <img src={url} alt="thubnail" className="w-[25rem] h-[11rem] rounded-2xl hover:rounded-none hover:cursor-pointer hover:transition duration-100 ease-in-out" />
 
         <div className='my-2 flex gap-4'>
           <div className='w-[2.5rem] h-[2.5rem] rounded-full bg-green-200'></div>
